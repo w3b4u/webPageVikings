@@ -202,21 +202,20 @@ ul{
 .slick-dots{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+}
+#slick-slide-control01{
+    margin: 0 10px;
 }
 .slick-dots button {
     width: 20px;
     height: 2px;
-
     border: none;
     font-size: 0;
     background-color: #efefef;
-    padding: 0;
 }
-.slick-dots .slick-active button {
+.slick-dots .slick-active button{
     background-color: #600E09;
-}
-#slick-slide-control01{
-    margin: 0 20px;
 }
 .heroes__slider-text{
     max-width: 350px;
